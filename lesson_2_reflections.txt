@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository, it creates a hidden .git subdirectory which contains metadata for the project. You need a git repository so you can keep track of all the changes/commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where files that have been changed are ready to be committed to the repository. The repositor is the final storage of the files that were changed. You can unstage these changes and reset to the last revised index so as not to introduce any errors.
