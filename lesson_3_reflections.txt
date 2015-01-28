@@ -1,1 +1,2 @@
-When would you want to create a remote repository rather than keeping all your work local?
+#1 When would you want to create a remote repository rather than keeping all your work local?
+One needs a remote repository when the application code will be shared by more than one programmer. This way each programmer can pull each other's code once individual changes are pushed to the remote repository.
