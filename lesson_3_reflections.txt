@@ -7,3 +7,5 @@ One needs a remote repository when the application code will be shared by more t
 Fork - when you want to clone a repository in github
 Clone - copy a remote or local repository into one's local repository
 Branch - copy a repository into another local repository.
+
+#4 What is the benefit of having a copy of the last known state of the remote stored locally? So you can pull origin/master anytime and you are synchronized with the remote branch called origin which is the master in the github repository.
