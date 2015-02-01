@@ -9,3 +9,6 @@ Clone - copy a remote or local repository into one's local repository
 Branch - copy a repository into another local repository.
 
 #4 What is the benefit of having a copy of the last known state of the remote stored locally? So you can pull origin/master anytime and you are synchronized with the remote branch called origin which is the master in the github repository.
+
+#5 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? There is another tool called SVN (Subversion) if Git or GitHub is not used. If there is no tool at all, and if you are using Eclipse, you can always export the workspace and place it on a shared drive for others to see (although you still have the problem of which codes got changed). 
+Sending a copy of the code changes to the other collaborators would be one way. It will be very hard to merge especially if there is a lot of code changes made.
