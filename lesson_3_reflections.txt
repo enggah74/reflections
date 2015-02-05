@@ -4,14 +4,14 @@ One needs a remote repository when the application code will be shared by more t
 #2 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository? You are not ready to get the latest commit especially if your own local changes are not ready and still have bugs.
 
 #3 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-Fork - when you want to clone a repository in github
+Fork - clone a repository in github
 Clone - copy a remote or local repository into one's local repository
 Branch - copy a repository into another local repository.
 
 #4 What is the benefit of having a copy of the last known state of the remote stored locally? So you can pull origin/master anytime and you are synchronized with the remote branch called origin which is the master in the github repository.
 
-#5 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? There is another tool called SVN (Subversion) if Git or GitHub is not used. If there is no tool at all, and if you are using Eclipse, you can always export the workspace and place it on a shared drive for others to see (although you still have the problem of which codes got changed). 
-Sending a copy of the code changes to the other collaborators would be one way. It will be very hard to merge especially if there is a lot of code changes made. 
+#5 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? There is another tool called SVN (Subversion) if Git or GitHub is not used. If there is no tool at all, and if you are using Eclipse, you can always export the workspace and place it on a shared drive for others to see (although you still have the problem of which codes got changed).
+Sending a copy of the code changes to the other collaborators would be one way. It will be very hard to merge especially if there is a lot of code changes made.
 
-#6 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? A separate branch is better to create when you want your code changes fully tested before merging with the master. There are times where the master needs to be deployed to production and you don't want new features/bugs introduced into the master.
-If changes occur in the master w/o using branches, the master will be overloaded with lots of commits. 
+#6 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? A separate branch is better to create when you want your code changes fully tested before merging with the master. There are times where the master needs to be deployed to production and you don't want new features/bugs introduced into the master without being fully tested.
+If changes occur in the master w/o using branches, the master will be overloaded with lots of commits.
